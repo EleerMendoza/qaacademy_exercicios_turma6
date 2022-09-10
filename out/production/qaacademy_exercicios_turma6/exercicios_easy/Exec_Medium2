@@ -1,0 +1,19 @@
+package exercicios_easy;
+
+import javax.swing.JOptionPane;
+
+public class Exec_11 {
+    public Exec_11() {
+    }
+
+    public static void main(String[] args) {
+        int soma = false;
+        int i = 1;
+
+        for(int soma = Integer.parseInt(JOptionPane.showInputDialog("Digite um numero")); i <= 100; ++i) {
+            soma += 2;
+            System.out.println(soma);
+        }
+
+    }
+}
