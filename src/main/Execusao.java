@@ -1,6 +1,7 @@
 package main;
 import exercicios_easy.Exec2;
 import exercicios_easy.Exec_3;
+import exercicios_easy.Exec_4;
 
 //import exemplos.MetodosSemMain;
 //
@@ -29,7 +30,16 @@ public class Execusao {
 //        Exec_3 exec3 = new Exec_3();
 //        System.out.println(exec3.exibirNome("Valeria ", "Vivas"));
 //    }
+
+    public static void main(String[] args) {
+
+        Exec_4 exec_4 = new Exec_4();
+
+        System.out.println(exec_4.exibirValor(4));
+
+    }
 }
+
 
 
 
