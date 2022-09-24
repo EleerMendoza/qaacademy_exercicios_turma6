@@ -4,15 +4,23 @@ import javax.swing.*;
 
 //2-)Faça um algoritmo para ler e exibir uma palavra
 public class Exec2 {
-    public static void main(String[] args) {
-//        Declarar variavel do tipo texto palavra
-String palavra;
-//palavra = Ler ("Curso");
-        palavra = JOptionPane.showInputDialog("Digite sua palavra aqui");
-//Exibir: "A palavra é: "+palavra;
-        System.out.println("A Palavra é: " + palavra);
+    public String exibirPalavra(String palavra){
+        return palavra;
     }
-}
+
+    }
+
+
+
+//    public static void main(String[] args) {
+////        Declarar variavel do tipo texto palavra
+//String palavra;
+////palavra = Ler ("Curso");
+//        palavra = JOptionPane.showInputDialog("Digite sua palavra aqui");
+////Exibir: "A palavra é: "+palavra;
+//        System.out.println("A Palavra é: " + palavra);
+//    }
+//}
 
 //
 //Início do algorítimo
