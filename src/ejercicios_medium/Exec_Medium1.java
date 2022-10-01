@@ -6,22 +6,24 @@ import javax.swing.*;
 //números Pares e ímpares.
 
 public class Exec_Medium1 {
-    public static void main(String[] args) {
-//        Declarar variáveis do tipo Numérico: num1, exibir;
-        int i = 0;
-        while (i <= 100) {
-            if(i % 2 == 0) {
-                System.out.println(i % 2);
-                System.out.println("O numero é :"+ i + " é par");
-            }else{
-                System.out.println(i % 2);
-                System.out.println("O numero é :"+ i + " é impar");
-            }
-            i++;
+//    public static void main(String[] args) {
+////        Declarar variáveis do tipo Numérico: num1, exibir;
+//        int i = 0;
+//        while (i <= 100) {
+//            if(i % 2 == 0) {
+//                System.out.println(i % 2);
+//                System.out.println("O numero é :"+ i + " é par");
+//            }else{
+//                System.out.println(i % 2);
+//                System.out.println("O numero é :"+ i + " é impar");
+//            }
+//            i++;
+//
+//
+//        }
+//    }
 
 
-        }
-    }
 }
 
 

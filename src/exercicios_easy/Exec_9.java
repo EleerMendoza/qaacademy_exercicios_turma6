@@ -6,14 +6,25 @@ import javax.swing.*;
 //100.
 
 public class Exec_9 {
-    public static void main(String[] args) {
 
-int num1=0, i = 1;
-        num1 = Integer.parseInt(JOptionPane.showInputDialog("Digite um numero"));
-while (i <= 10){
-    System.out.println(num1+ " x " + i + " = " + num1 * i);
-    i++;
-}
+    public int calcularTabuada(int num1) {
 
+        int i = 1;
+        while (i <= 10) {
+            System.out.println(num1 + " x " + i + " = " + num1 * i);
+            i++;
+        }
+        return i;
     }
 }
+//    public static void main(String[] args) {
+//
+//int num1=0, i = 1;
+//        num1 = Integer.parseInt(JOptionPane.showInputDialog("Digite um numero"));
+//while (i <= 10){
+//    System.out.println(num1+ " x " + i + " = " + num1 * i);
+//    i++;
+//}
+//
+//    }
+//}

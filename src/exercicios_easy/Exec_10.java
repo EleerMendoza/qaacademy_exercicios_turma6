@@ -8,20 +8,33 @@ package exercicios_easy;
 import javax.swing.*;
 
 public class Exec_10 {
-    public static void main(String[] args) {
-        double investimento, valorJuros, taxa = 0.05, juros = 0, valorTotal = 0;
-        int i = 1;
-        investimento = Double.parseDouble(JOptionPane.showInputDialog("Digite"));
+    public String calcularValorJuros(double investimento) {
+        double valorJuros = 0.0, taxa = 0.05, juros = 0, valorTotal = 0;
 
         valorJuros = (10 * taxa) * investimento;
         valorTotal = valorJuros + investimento;
 
-        System.out.println("Valor Investido: R$" + investimento);
-        System.out.println("Valor Juros: R$" + valorJuros);
-        System.out.println("Valor Total com Juros: R$" + valorTotal);
+        return "Valor Investido: R$" + investimento + "Valor Juros: R$" + valorJuros + "Valor Total com Juros: R$" + valorTotal;
+
 
     }
 }
+
+
+//    public static void main(String[] args) {
+//        double investimento, valorJuros, taxa = 0.05, juros = 0, valorTotal = 0;
+//        int i = 1;
+//        investimento = Double.parseDouble(JOptionPane.showInputDialog("Digite"));
+//
+//        valorJuros = (10 * taxa) * investimento;
+//        valorTotal = valorJuros + investimento;
+//
+//        System.out.println("Valor Investido: R$" + investimento);
+//        System.out.println("Valor Juros: R$" + valorJuros);
+//        System.out.println("Valor Total com Juros: R$" + valorTotal);
+//
+//    }
+//}
 
 
 //  Início Algoritimo
