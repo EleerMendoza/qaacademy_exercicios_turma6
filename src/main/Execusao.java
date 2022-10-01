@@ -2,8 +2,9 @@ package main;//package main;
 //import exercicios_easy.*;
 //
 
-//import exercicios_easy.Exec_11;
-//
+import exercicios_easy.Exec2;
+import exercicios_easy.Exec_11;
+
 //public class Execusao {
 //    public static void main(String[] args) {
 //        Exec_11 exec_11 = new Exec_11();
@@ -70,13 +71,13 @@ package main;//package main;
 //    }
 //}
 
+public class Execusao {
+    public static void main(String[] args) {
 
-//    public static void main(String[] args) {
-//
-//        Exec2 exec2 = new Exec2();
-//        System.out.println(exec2.exibirPalavra("A palavra é " + "Palavra"));
-//    }
-//    }
+        Exec2 exec2 = new Exec2();
+        System.out.println(exec2.exibirPalavra("A palavra é: " + "Palavra"));
+    }
+    }
 
 //    public static void main(String[] args) {
 //

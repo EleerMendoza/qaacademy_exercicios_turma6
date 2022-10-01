@@ -17,7 +17,7 @@ public class Exec_4 {
 
 
 
-    public int exibirValor (int valor) {
+    public int exibirValor(int valor) {
         return valor*2;
     }
 }
