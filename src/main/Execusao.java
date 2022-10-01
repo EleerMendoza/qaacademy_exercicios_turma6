@@ -1,12 +1,23 @@
-package main;
-import exercicios_easy.*;
+package main;//package main;
+//import exercicios_easy.*;
+//
 
-public class Execusao {
-    public static void main(String[] args) {
-        Exec_10 exec_10 = new Exec_10();
-        System.out.println(exec_10.calcularValorJuros(2000));
-    }
-}
+//import exercicios_easy.Exec_11;
+//
+//public class Execusao {
+//    public static void main(String[] args) {
+//        Exec_11 exec_11 = new Exec_11();
+//        System.out.println(exec_11.soma(2));
+//    }
+//}
+
+//
+//public class Execusao {
+//    public static void main(String[] args) {
+//        Exec_10 exec_10 = new Exec_10();
+//        System.out.println(exec_10.calcularValorJuros(2000));
+//    }
+//}
 
 //public class Execusao {
 //    public static void main(String[] args) {

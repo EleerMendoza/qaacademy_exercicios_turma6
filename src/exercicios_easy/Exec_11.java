@@ -6,7 +6,26 @@ package exercicios_easy;
 
 import javax.swing.*;
 
-public class Exec_11 {
+ public class Exec_11 {
+//
+//     public int soma(int numerodigitado) {
+//
+//         int soma = 0, i = 1;
+//
+//
+//         while (i <= 100) {
+//             soma = soma + 2;
+//             System.out.println(soma);
+//             i++;
+//
+//         }
+//
+//
+//         return soma;
+//     }
+// }
+
+
     public static void main(String[] args) {
         int soma = 0, i = 1;
         soma = Integer.parseInt(JOptionPane.showInputDialog("Digite um numero"));
@@ -18,6 +37,19 @@ public class Exec_11 {
 
     }
 }
+
+//public class Exec_11 {
+//    public static void main(String[] args) {
+//        int soma = 0, i = 1;
+//        soma = Integer.parseInt(JOptionPane.showInputDialog("Digite um numero"));
+//        while (i <= 100){
+//            soma = soma +2;
+//            System.out.println(soma);
+//            i++;
+//        }
+//
+//    }
+//}
 
 
 //  Início Algoritimo
